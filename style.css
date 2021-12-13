@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    padding-top:800px;
+    text-align:center;
+}
+.profile{
+    width:175px;
+    border-radius:50%;
+}
+#welcome{
+    position:absolute;
+    bottom:0;
+    background:linear-gradient(#9dd4c2 0%,blue 100%);
+    display: table; width: 100%; height: 100%
+}
+.menu {
+     background:white;
+     width:100%;
+      position: fixed;
+       top:0px;
+         cursor: pointer;
+          z-index: 10; 
+        }
+.links {
+           display:inline;
+           color: fuchsia;
+             padding-left: 33px; 
+             padding-right:25px;
+              font-family: fantasy;
+               font-size: 20px 
+            }
+.links:hover {
+     background-color: aqua;
+            text-decoration:underline; }
+html { scroll-behavior: smooth; }
+#writings a{
+    text-decoration: underline !important;
+    color: darkblue !important;
+}
+#contact{
+    background: cornsilk;
+}
+.contact_1 h3{
+    display: inline;
+}
